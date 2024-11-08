@@ -57,3 +57,11 @@ Convert the "Date" column to datetime format and set it as the index for easier 
 
 ## Comparison with Modified LSTM Model
 The modified LSTM model with dropout regularization and fewer LSTM units demonstrates a slight improvement, reducing overfitting and achieving lower error metrics than the baseline.
+
+## Model Evaluation and Performance
+- IBM Stock Prediction: The modified LSTM model achieved an RMSE of 2.26, MAE of 1.63, and MAPE of 1.13%. These results indicate that the model's predictions are relatively close to actual prices, with a low error margin, reflecting strong predictive accuracy for IBM.
+- Facebook Stock Prediction: The modified model achieved an RMSE of 3.90, MAE of 2.84, and MAPE of 1.79%. While the model is slightly less accurate for Facebook than IBM, it still captures stock price trends effectively, with MAPE indicating an error rate below 2%.
+
+## Insights on Accuracy
+The model performs well in terms of RMSE and MAE, especially given the high volatility in stock data, which can make precise forecasting challenging. The low MAPE values (close to 1% for IBM and under 2% for Facebook) suggest that the model’s predictions generally remain within 1–2% of the actual stock prices, which is quite robust for financial forecasting.
+
