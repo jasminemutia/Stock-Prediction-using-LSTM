@@ -36,7 +36,7 @@ Convert the "Date" column to datetime format and set it as the index for easier 
   - Horizon: Number of future steps to predict.
   - Split data into training (80%), validation (10%), and testing (10%) sets.
 
-### LSTM Model Architecture
+## LSTM Model Architecture
 - Baseline LSTM Model :
   - LSTM Layer: Contains 50 units to learn temporal dependencies.
   - Dense Output Layer: Predicts the closing price based on learned patterns.
@@ -45,7 +45,7 @@ Convert the "Date" column to datetime format and set it as the index for easier 
     - LSTM (units=50): Captures sequential patterns with 10,400 parameters.
     - Dense (units=1): 1 neuron predicting the next closing price.
    
-### Model Training and Evaluation
+## Model Training and Evaluation
 1. Training Configuration
   - Compile the model with Mean Squared Error (MSE) as the loss function.
   - Train with a batch size of 64 for 15 epochs to ensure convergence.
