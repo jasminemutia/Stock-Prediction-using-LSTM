@@ -55,5 +55,5 @@ Convert the "Date" column to datetime format and set it as the index for easier 
   - Evaluate using RMSE, MAE, and MAPE for IBM and Facebook datasets.
   - Visualize predictions against real values to assess tracking effectiveness.
 
-### Comparison with Modified LSTM Model
+## Comparison with Modified LSTM Model
 The modified LSTM model with dropout regularization and fewer LSTM units demonstrates a slight improvement, reducing overfitting and achieving lower error metrics than the baseline.
